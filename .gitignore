@@ -1,0 +1,38 @@
+# Python / virtual environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files - NEVER commit these
+data/raw/*.zip
+data/raw/complaints.csv
+data/raw/*.csv
+
+# Processed files - usually regenerated, keep small ones if needed
+data/processed/*.csv
+data/processed/*.parquet
+
+# Vector stores & embeddings (very large!)
+vector_store/
+*.index
+*.faiss
+*.pkl
+*.bin
+chroma/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
