@@ -26,7 +26,8 @@ data/processed/*.csv
 data/processed/*.parquet
 
 # Vector stores & embeddings (very large!)
-vector_store/
+data/vector_store/
+vectore_store
 *.index
 *.faiss
 *.pkl
