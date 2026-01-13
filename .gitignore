@@ -23,11 +23,11 @@ data/raw/*.csv
 
 # Processed files - usually regenerated, keep small ones if needed
 data/processed/*.csv
-data/processed/*.parquet
+data/*.parquet
 
 # Vector stores & embeddings (very large!)
 data/vector_store/
-vectore_store
+vector_store/
 *.index
 *.faiss
 *.pkl
